@@ -5,3 +5,7 @@ function printBadges(employees){
   }
   return employees
 }
+
+function tails NeverFails() {
+
+}
