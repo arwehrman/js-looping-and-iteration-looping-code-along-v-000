@@ -1,8 +1,7 @@
-
-function printBadges(names) {
-  for (let i = 0; index < names.length; index++) {
-    name = names[index]
-console.log('Welcome ${name}! You are employee #${index + 1}.')
-  }
-  return names;
+function printBadges(employee_array){
+    for (let index = 0; index < employee_array.length; index++) {
+        employee = employee_array[index]
+        console.log(`Welcome ${employee}! You are employee #${index + 1}.`)
+    }
+    return employee_array
 }
