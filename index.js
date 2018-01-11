@@ -7,5 +7,8 @@ function printBadges(employees){
 }
 
 function tailsNeverFails() {
-  while 
+  return Math.random() >= .5;
 }
+  while (tailsNeverFails()) {
+    console.log('You got 0 tails in a row!')
+  }
