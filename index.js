@@ -3,6 +3,5 @@ function printBadges(array){
       employee = array[i]
       console.log(`Welcome ${employee}! You are employee #${i + 1}.`)
   }
-  return employee_array
+  return array
 }
-
