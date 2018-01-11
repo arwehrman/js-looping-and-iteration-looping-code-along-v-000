@@ -1,3 +1,3 @@
 function printBadges([]) {
-console.log 'Welcome []! You are employee #[].'
+console.log('Welcome []! You are employee #[].')
 }
